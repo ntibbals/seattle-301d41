@@ -123,7 +123,7 @@ let objectLit = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+console.log(objectLit());
 
 
 let sumAndProduct = function(a, b) {
