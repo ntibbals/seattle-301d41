@@ -21,28 +21,12 @@ nav li {
   float: left;
   padding-right: 2px;
 }
-#logo {
-  float: left;
-  padding-bottom: 25px;
-  color: black;
-  text-decoration: none;
-}
 
-#logo img {
-  float: left;
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
 }
-
-#logo h1 {
-  padding-left: 50px;
-  font-family: 'Yellowtail', cursive;
-  font-size: 2.4em;
-}
-
-#slogan {
-  width: 250px;
-  padding-left: 55px;
-  color: #a3a4a2;
-  font-family: 'Abel', sans-serif;
-  font-size: .65em;
-  text-transform: uppercase;
+section hr {
+  border-bottom: 1px solid #eee;
+  height: 0;
 }
