@@ -134,7 +134,9 @@ let sumAndProduct = (a, b) => {
 console.log(sumAndProduct(3, 9));
 
 
-let message = (name) => {return `Hello, ${name}!`};
+let message = (name) => {
+  return `Hello, ${name}!`;
+};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
@@ -159,15 +161,13 @@ Student.prototype.greeting = function() {
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this method to break!
-// console.log(joe.greeting());
+console.log(joe.greeting());
 
 
-Student.courseName = function() {
-  return 'This student is enrolled in Code 301.';
-};
+Student.courseName = () => { return 'This student is enrolled in Code 301.'};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(Student.courseName());
+console.log(Student.courseName());
 
 
 
